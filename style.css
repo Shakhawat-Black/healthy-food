@@ -1,35 +1,96 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     width: 0 auto;
 }
-.top-section{
+.main-section{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 .half-width{
     width: 50%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 4%;
     padding: 10px 12px;
+}
+.top-sec img{
+    width: 110%;
+}
+.half-desc{
+    margin-top: 60px;
 }
 span{
     color: orangered;
 }
 h1{
     font-size: 50px;
-
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 25px;
 }
 .half-width a{
     text-decoration: none;
 }
 .button{
     color: white;
-    background-color: red;
+    background-image: linear-gradient(to right, tomato, rgb(233, 157, 15));
     margin: 2px 8px;
     padding: 6px 15px;
     font-weight: 500;
     border-radius: 20px;
 }
-.half-width img{
-    width: 80%;
+.about-part img{
+    width: 60%;
+    margin-top: 12%;
+    margin-left: 30%;
+}
+.about-part{
+    background-image: url(images/shapes/about-bg.png);
+    background-repeat: no-repeat;
+}
+.about-half{
+    margin-top: 10%;
+}
+.receipe-section h2{
+    text-align: center;
+}
+.rec-para{
+    text-align: center;
+}
+.menu-top{
+    margin-top: 60px;
+}
+.menu-food{
+    width: 33.3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 20px 20px;
+    box-shadow: 2px 2px 7px 8px rgb(240, 235, 235);
+    border-radius: 20px;
+}
+.menu-food img{
+    width: 100%;
+}
+.social-trac{
+    display: flex;
+    text-align: center;
+    margin: 80px 90px;
+    padding: 10px 80px;
+    box-shadow: 2px 2px 7px 8px rgb(240, 235, 235);
+    border-radius: 20px;
+}
+.one-third{
+    width: 33.5%;
+}
+footer{
+    padding-top: 10px;
+    padding-bottom: 80px;
+    text-align: center;
+    color: papayawhip;
+    background-color: black;
+}
+#name{
+    color: orange;
 }
